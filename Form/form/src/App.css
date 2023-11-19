@@ -1,0 +1,171 @@
+.App
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.form-area
+{
+  background: snow;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  outline:none;
+  border:none;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.form-create
+{
+    display:flex;
+    flex-direction: column;
+}
+.div-create label
+{
+  font-size: 16px;
+  font-weight: 600;
+  color: #475c6c;
+  
+}
+.div-create .lbl
+{
+  font-size: 14px;
+  color:#121212;
+  text-align: center;
+  font-weight: 500;
+}
+.div-create
+{
+    width: 550px;
+    border: 2px solid #666;
+    border-radius: 2px;
+    padding:25px; 
+}
+.div-update
+{
+  width: 100%;
+}
+.div-update h4
+{
+  color:#007bff;
+  font-size: 15px;
+}
+.div-create h3
+{
+  font-size: 16px;
+  text-align: center;
+  color:#FF5733;
+}
+.form-input
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.form-input input
+{
+  padding-right: 10px;
+}
+.form-button
+{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    width: 125px;
+    margin-top: 10px;
+    padding: 10px;
+    color:#fff;
+    background: #FF5733;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.update-button
+{
+  background: #007bff;
+}
+.buttons 
+{
+  text-align: center;
+}
+.label
+{
+  font-size: 15px;
+  /* color:#475c6c; */
+  color:#FF5733;
+  font-weight: 600;
+
+}
+.form-show span
+{
+  text-decoration: underline; 
+}
+
+.form-show
+{
+  border: 2px solid #23242a;
+  width: 500px;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 20px;
+}
+.form-show p 
+{
+  font-weight: 600;
+  font-size: 14px;
+  font-style: italic;
+}
+.form
+.form-show .label
+{
+  text-align: center;
+}
+.main-div
+{
+  margin-top: 60px;
+}
+.form-list
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.deleteBtn
+{
+  border:none;
+  outline:none;
+  cursor:pointer;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px;
+  width: 125px;
+  border-radius: 4px;
+  background:  #5783db;
+  color:#fff;
+  margin-right: 25px;
+}
+.updateBtn
+{
+  border:none;  
+  outline:none;
+  cursor:pointer;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding: 8px;
+  width: 125px;
+  border-radius: 4px; 
+  background:  #888787;
+  color:#fff;
+  margin-left: 25px;
+}
+.form-button:active{opacity: 0.7;}
+.deleteBtn:active{opacity: 0.7;}
+.updateBtn:active{opacity: 0.7;}
